@@ -6,7 +6,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 publishDir = "docs"
 
 [params]
-    themeStyle                   = "light"                  # Choose "light" or "dark" or "auto"
+    themeStyle                   = "light"                 # Choose "light" or "dark" or "auto"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
@@ -20,10 +20,10 @@ publishDir = "docs"
     # Configure the home page
     [params.home]
         introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = true                    # Show latest blog post summary
+        showLatest               = false                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         allPostsArchiveFormat    = true                    # show all posts in an archive format
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+        numberOfProjectsToShow   = 0                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = true                    # Show your current local time in contact section
         timeZone                 = "Europe/Copenhagen"     # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "en-US"                 # Language specific format to use
@@ -73,14 +73,26 @@ publishDir = "docs"
 
 
 # If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+ [[menu.main]]
+     name    = "Home"
+     url     = "/"
+     weight  = 1
+ [[menu.main]]
+     name    = "Introduction"
+     url     = "/intro/"
+     weight  = 2
+ [[menu.main]]
+     name    = "Detailed analysis"
+     url     = "/analysis/"
+     weight  = 3
+ [[menu.main]]
+     name    = "Geo data visualizations"
+     url     = "/geo/"
+     weight  = 4
+ [[menu.main]]
+     name    = "Models"
+     url     = "/models/"
+     weight  = 5
 
 # We only use tag as a taxonomies
 # You can add more by yourself
