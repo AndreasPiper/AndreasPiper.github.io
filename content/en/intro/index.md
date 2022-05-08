@@ -8,7 +8,7 @@ weight: 2
 
 ### Motivation
 
-In the battle against climate change, we need to find ways of minimizing greenhouse gas emissions. The transport sector is contributing greatly to the total emissions, hence finding green ways of transportation is key. Denmark is on of the most biking countries in the world - its a means of transport with no CO2 emission connected to it but lots of health benefits for the rider! Denmark is known for its' bike culture and the bike infrastructure of Danish cities is copied across the world. Therefore, we have decided to focus our project on Danish bicycle habits. We aim to answer questions such as: Who bikes? Which municipalities bike the most, the longest and the fastest? Has there been an increase in the use of electrical bikes?
+Testing... In the battle against climate change, we need to find ways of minimizing greenhouse gas emissions. The transport sector is contributing greatly to the total emissions, hence finding green ways of transportation is key. Denmark is on of the most biking countries in the world - its a means of transport with no CO2 emission connected to it but lots of health benefits for the rider! Denmark is known for its' bike culture and the bike infrastructure of Danish cities is copied across the world. Therefore, we have decided to focus our project on Danish bicycle habits. We aim to answer questions such as: Who bikes? Which municipalities bike the most, the longest and the fastest? Has there been an increase in the use of electrical bikes?
 
 ### About the data source
 
