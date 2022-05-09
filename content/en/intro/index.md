@@ -11,7 +11,7 @@ The data used in this project comes from the Danish National Travel Survey (Tran
 * Every day contains several trips with different modes of transport
 * Covers 365 days a year
 * Regards Danish residents, 10-84 years of age
-* Interviews are performed from 2006-2021'
+* Interviews are performed from 2006-2021
 
 We will use two main datasets from the TU database. The **Session dataset** contains the background data about the person being interviewed, such as age, gender, home address, occupation etc. It contains:
 
@@ -25,10 +25,11 @@ The **Tur** dataset contains information on every trip in the one-day travel dia
 
 **88688** (15%) bike trips 🚲
 
+The bar chart below shows the number of interviews conducted per year since the beginning of the survey in 2006.
 
 <img src="Number_of_interviews_per_year.png" width=800 height=600 />
 
-In our analysis, we will use subsets of the dataset depending on the aim. In general, we focus on the trips where bicycle is the primary mode of transport. Furthermore, for some parts of the analysis we focus on the 15 top municipalities when it comes to total distance travelled. These are listed below
+In our analysis, we will use subsets of the dataset depending on the analysis aim. In general, we focus on the trips where 'bicycle' is the primary mode of transport. Furthermore, for parts of the analysis we focus on the 15 top municipalities when it comes to total distance travelled by bike. These are listed below
 
 **Top 15 biking municipalities:**
 1. København
@@ -47,23 +48,18 @@ In our analysis, we will use subsets of the dataset depending on the aim. In gen
 14. Sønderborg
 15. Vejle
 
-
-
 {{< include-html "content/en/intro/intro_plot.html" >}}
 
 ### Design Space Dimensions
-
-*Which genre of data story did you use?
-Which tools did you use from each of the 3 categories of Visual Narrative (Figure 7 in Segal and Heer). Why?
-Which tools did you use from each of the 3 categories of Narrative Structure (Figure 7 in Segal and Heer). Why?*
 
 **Narrative genre**<br/>
 We will make use of several genres of narrative visualization [2]. For example, a multi-view visualization (“partitioned poster”) to have a loose order to images, possibly combined with Flow Chart to suggest a path to the viewer. Time-series data can be displayed using Annotated Graphs within a Slide Show format allowing for interactivity through a timeline slider. Time-series data may also be presented in a video format.
 
 **Visual Narrative**<br/>
+We have made use of several visual devices to assist and facilitate the narrative. Some of our interactive plots contain tabs or a timeline slider to communicate the overall structure within the larger organization of the visualization. Color and size have been used to highlight specific elements of our plots and direct the reader's attention to important parts. We have made limited use of Transition guidance tools, since most our visualizations don't contain film or moving images.
 
 **Narrative Structure**<br/>
-For the oredering of the webiste content we have aimed for a user directed path with limited prescribed ordering of plots and a high degree of interactivity. The interactive components include hovering, selection and navigation buttons that allow the reader to create a customized view of the data. From the messaging tools, we have made use of captions and annotations to provide observations and explanations about the plots. 
+For the ordering of the website content we have aimed for a user directed path without a prescribed ordering of plots and a high degree of interactivity. The interactive components include hovering, selection and navigation buttons that allow the reader to create a customized view of the data. From the messaging tools, we have made use of captions and annotations to provide observations and explanations about the plots. 
 
 
 
