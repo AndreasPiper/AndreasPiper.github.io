@@ -21,14 +21,11 @@ This project is about the pictures I take. Sometimes, they are pictures of cats.
     
       <meta charset="utf-8">
       <title>my plot</title>
-       -->
-      
-        
-          
+       -->       
         
         
           
-        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
         <script type="text/javascript">
             Bokeh.set_log_level("info");
         </script>
