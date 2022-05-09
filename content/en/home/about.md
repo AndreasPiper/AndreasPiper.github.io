@@ -7,7 +7,7 @@ weight: 1
 This is **Saving the world cycling**, a DTU-project displaying the findings of social data analyses within the area of commuting on bikes in Denmark. For project description please visit: [GitHub](https://github.com/suneman/socialdata2022/wiki/Final-Project).
 
 * Introduction: Basic statistics on cycling data of Denmark
-* Municipality analysis: Awesome findings on how the bike habits in different municipalities
+* Municipality analysis: Awesome findings on bike habits in different municipalities
 * Geo data visualizations: Cool stats visualised on a map
 * Demographic analysis: social analysis and Machine Learning predictions 
 * Green conclusions: how biking will save the world
