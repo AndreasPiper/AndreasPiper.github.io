@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="e6deac18-4e62-4312-b656-4124d2b8de01" data-root-id="11399"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="11621">
+          {"40ace612-5e3c-4531-8d02-cdd593d4fdcb":{"defs":[],"roots":{"references":[{"attributes":{},"id":"11402","type":"DataRange1d"},{"attributes":{"tools":[{"id":"11416"},{"id":"11417"},{"id":"11418"},{"id":"11419"},{"id":"11420"},{"id":"11421"},{"id":"11475"}]},"id":"11423","type":"Toolbar"},{"attributes":{"source":{"id":"11398"}},"id":"11471","type":"CDSView"},{"attributes":{},"id":"11404","type":"LinearScale"},{"attributes":{},"id":"11486","type":"UnionRenderers"},{"attributes":{},"id":"11482","type":"AllLabels"},{"attributes":{"coordinates":null,"gradient":0.3062976997281763,"group":null,"line_color":"grey","line_dash":[6],"line_width":3.5,"y_intercept":-0.8452782505065893},"id":"11472","type":"Slope"},{"attributes":{},"id":"11406","type":"LinearScale"},{"attributes":{},"id":"11421","type":"HelpTool"},{"attributes":{},"id":"11409","type":"BasicTicker"},{"attributes":{},"id":"11400","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"Speed","transform":{"id":"11430"}},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"size":{"field":"Count_scaled"},"x":{"field":"Min"},"y":{"field":"Len"}},"id":"11469","type":"Scatter"},{"attributes":{},"id":"11420","type":"ResetTool"},{"attributes":{"coordinates":null,"data_source":{"id":"11398"},"glyph":{"id":"11467"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"11469"},"nonselection_glyph":{"id":"11468"},"view":{"id":"11471"}},"id":"11470","type":"GlyphRenderer"},{"attributes":{"axis_label":"Average bike duration [Min]","axis_label_text_font_size":"20pt","axis_label_text_font_style":"normal","coordinates":null,"formatter":{"id":"11484"},"group":null,"major_label_policy":{"id":"11485"},"ticker":{"id":"11409"}},"id":"11408","type":"LinearAxis"},{"attributes":{"callback":null,"tooltips":[["Municipality","@Municipality"],["Total number of bike trips","@Count"],["Average bike distance","@Len{0.0}"],["Average bike duration","@Min{0.0}"],["Average speed","@Speed{0.0}"]]},"id":"11475","type":"HoverTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Speed","transform":{"id":"11430"}},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"size":{"field":"Count_scaled"},"x":{"field":"Min"},"y":{"field":"Len"}},"id":"11468","type":"Scatter"},{"attributes":{"data":{"Count":[15999,2881,1321,1313,1019,1517,4168,1036,1867,928,1382,1238,5259,1132,3067],"Count_scaled":{"__ndarray__":"SOF6FK7/Y0CQwvUoXM88QOxRuB6FaypAw/UoXI9CKkDhehSuR2EkQNejcD0KVy5A16NwPQrXREC4HoXrUbgkQOxRuB6FqzJAj8L1KFyPIkCkcD0K16MrQMP1KFyPwihA7FG4HoVLSkCkcD0K16MmQOxRuB6Fqz5A","dtype":"float64","order":"little","shape":[15]},"Len":{"__ndarray__":"rU1cYB5FC0CEKyxV/Q8IQBHQCklRHg5ARaWcDfxZDUB5CMvA6UUPQGUwY7jDCwdAiMKuGRRQCkCr4KCsPjEHQG1AgaWFsAZALP3CQAB7CUAzdxOVBgkFQOi8MusocQ5A6n+Hom9DCkAxN5PFUZoFQHzuDCNrhwZA","dtype":"float64","order":"little","shape":[15]},"Min":{"__ndarray__":"zuMdTBWzLEBiLnZOTRoqQLcColxSfy1A7eOPXrtfLUAUEEAzXOMtQAFsgEMwKihAN0nTQriBKkDMZojSuWwpQG243a2kjSdA3dMIyz3dKkDotRdA4eAlQGlDV8fajS5Av5zEy7LVKkCEKoM99HYnQBedEpP68idA","dtype":"float64","order":"little","shape":[15]},"Municipality":["K\u00f8benhavn","Frederiksberg","Gentofte","Gladsaxe","Lyngby-Taarb\u00e6k","Roskilde","Odense","S\u00f8nderborg","Esbjerg","Vejle","Herning","Silkeborg","Aarhus","Viborg","Aalborg"],"Speed":{"__ndarray__":"9Pwa3XOBLEA3orQ4tKcrQHjigYW0oS5A2K5bUyH6LUCozkFM4WMvQP14wGRpnCxAkrORDNHHLUDx656rrV0rQCxrKDdb5ixADnAWBml0LEByataWBNgsQM5VuFzT4y1AEgM2TnxcLUAT11MrnZ4rQGwNEJ6VOCxA","dtype":"float64","order":"little","shape":[15]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]},"selected":{"id":"11487"},"selection_policy":{"id":"11486"}},"id":"11398","type":"ColumnDataSource"},{"attributes":{"high":15.695078261407005,"low":13.68296562495195,"palette":["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c","#cb181d","#99000d"]},"id":"11430","type":"LinearColorMapper"},{"attributes":{},"id":"11487","type":"Selection"},{"attributes":{},"id":"11485","type":"AllLabels"},{"attributes":{"axis":{"id":"11412"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"11415","type":"Grid"},{"attributes":{},"id":"11481","type":"BasicTickFormatter"},{"attributes":{},"id":"11413","type":"BasicTicker"},{"attributes":{"axis_label":"Average bike distance [km]","axis_label_text_font_size":"20pt","axis_label_text_font_style":"normal","coordinates":null,"formatter":{"id":"11481"},"group":null,"major_label_policy":{"id":"11482"},"ticker":{"id":"11413"}},"id":"11412","type":"LinearAxis"},{"attributes":{},"id":"11416","type":"PanTool"},{"attributes":{"coordinates":null,"group":null,"text":"Above average speed \ud83d\ude80","text_font_size":"20pt","text_font_style":"italic","x":11,"y":3.9},"id":"11473","type":"Label"},{"attributes":{"fill_color":{"field":"Speed","transform":{"id":"11430"}},"size":{"field":"Count_scaled"},"x":{"field":"Min"},"y":{"field":"Len"}},"id":"11467","type":"Scatter"},{"attributes":{},"id":"11417","type":"WheelZoomTool"},{"attributes":{},"id":"11484","type":"BasicTickFormatter"},{"attributes":{},"id":"11419","type":"SaveTool"},{"attributes":{"coordinates":null,"group":null},"id":"11478","type":"Title"},{"attributes":{"coordinates":null,"group":null,"text":"\ud83d\udc0c Below average speed","text_font_size":"20pt","text_font_style":"italic","x":13,"y":2.65},"id":"11474","type":"Label"},{"attributes":{"overlay":{"id":"11422"}},"id":"11418","type":"BoxZoomTool"},{"attributes":{"below":[{"id":"11408"}],"center":[{"id":"11411"},{"id":"11415"},{"id":"11472"},{"id":"11473"},{"id":"11474"}],"height":800,"left":[{"id":"11412"}],"renderers":[{"id":"11470"}],"title":{"id":"11478"},"toolbar":{"id":"11423"},"width":800,"x_range":{"id":"11400"},"x_scale":{"id":"11404"},"y_range":{"id":"11402"},"y_scale":{"id":"11406"}},"id":"11399","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"11408"},"coordinates":null,"group":null,"ticker":null},"id":"11411","type":"Grid"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"11422","type":"BoxAnnotation"}],"root_ids":["11399"]},"title":"Bokeh Application","version":"2.4.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('11621').textContent;
+                  const render_items = [{"docid":"40ace612-5e3c-4531-8d02-cdd593d4fdcb","root_ids":["11399"],"roots":{"11399":"e6deac18-4e62-4312-b656-4124d2b8de01"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
