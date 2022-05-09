@@ -25,28 +25,11 @@ The **Tur** dataset contains information on every trip in the one-day travel dia
 
 **88688** (15%) bike trips 🚲
 
-The bar chart below shows the number of interviews conducted per year since the beginning of the survey in 2006.
+The left bar chart below shows the number of interviews conducted per year since the beginning of the survey in 2006.
 
 <img src="Number_of_interviews_per_year.png" width=800 height=600 />
 
-In our analysis, we will use subsets of the dataset depending on the analysis aim. In general, we focus on the trips where 'bicycle' is the primary mode of transport. Furthermore, for parts of the analysis we focus on the 15 top municipalities when it comes to total distance travelled by bike. These are listed below
-
-**Top 15 biking municipalities:**
-1. København
-2. Aarhus
-3. Odense
-4. Frederiksberg
-5. Aalborg
-6. Esbjerg
-7. Gentofte
-8. Gladsaxe
-9. Silkeborg
-10. Roskilde
-11. Lyngby-Taarbæk
-12. Herning
-13. Viborg
-14. Sønderborg
-15. Vejle
+In our analysis, we will use subsets of the dataset depending on the analysis aim. In general, we focus on the trips where 'bicycle' is the primary mode of transport. Furthermore, for parts of the analysis we focus on the 15 top municipalities when it comes to total distance travelled by bike. These are shown in the plot to the right.
 
 {{< include-html "content/en/intro/intro_plot.html" >}}
 
