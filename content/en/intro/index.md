@@ -3,8 +3,6 @@ title: "Introduction"
 weight: 2
 ---
 
-### Motivation <img src = "Earth_emoji.png" width=350 height=350  align="center" />
-
 ### About the data source
 
 The data used in this project comes from the Danish National Travel Survey (Transportvaneundersøgelsen), which is a survey that aims to gather information on the transport behaviour of Danes residing in Denmark [1]. The survey is managed by DTU Transport on behalf of a group of Danish authorities and organisations. Here are some key points that describe the survey:
