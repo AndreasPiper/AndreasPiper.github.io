@@ -14,8 +14,8 @@ weight: 3
 ### Edu Map1
 {{< include-html "content\en\geo\edu_map1.html" >}}
 
-### Heat Map
-{{< include-html "content\en\geo\heat_map.html" >}}
+<!-- ### Heat Map
+{{< include-html "content\en\geo\heat_map.html" >}} -->
 
 ### Hour Map
 {{< include-html "content\en\geo\hour_map1.html" >}}
