@@ -37,6 +37,12 @@ In our analysis, we will use subsets of the dataset depending on the aim. In gen
 
 <img src="Top_15_bike_municipalities.png" width=800 height=600 />
 
+
+
+{{< include-html "content/en/intro/intro_plot.html" >}}
+
+
+
 Reference: Danish National Travel Survey, [DOI: 10.11581/dtu:00000034](https://www.cta.man.dtu.dk/transportvaneundersoegelsen/dokumentation)
 
 
