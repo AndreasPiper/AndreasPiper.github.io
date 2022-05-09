@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: "Earth_emoji.jpg"
+image: "Earth_emoji.png"
 weight: 1
 ---
 
