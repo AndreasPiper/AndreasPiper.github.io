@@ -1,6 +1,6 @@
 ---
 title: "Motivation"
-image: "Earth_emoji.png"
+image: "UN_goals.png"
 weight: 2
 ---
 
