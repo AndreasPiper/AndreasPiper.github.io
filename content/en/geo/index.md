@@ -15,7 +15,7 @@ weight: 3
 {{< include-html "content\en\geo\edu_map1.html" >}}
 
 ### Heat Map
-<iframe src="content/en/geo/heat_map1.html"
+<iframe src="https://AndreasPiper.github.io/geo/heat_map1.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="500"
