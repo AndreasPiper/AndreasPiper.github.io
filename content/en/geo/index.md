@@ -18,7 +18,7 @@ We also wanted to check if the education status of average bikers across the cou
 {{< include-html "content\en\geo\edu_map1.html" >}}
 
 ### Heat Map
-The heat map is a great way of presenting 
+The heat map is a great way of presenting different hubs of similar behaviour across map. In this heat plot it is clear to see the 
 <iframe src="https://AndreasPiper.github.io/geo/heat_map1.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
