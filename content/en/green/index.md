@@ -9,7 +9,7 @@ Looking at all the bike trips in the dataset, we were interested in exploring th
 
 In the interactive plot below shows the number of bike trips by year showing the eight different bicycles types that are represented in the dataset. Notice that the question of bicycle type has only been included in the Danish National Travel Survey since 2014, hence years on the x-axis ranges from 2014-2021. It is obvious that the ordinary two wheel bike is by far the most dominant bicycle type. Zoom in on the remaining curves to see that E-bikes and Christiniabicycles are the second- and thirdmost popular types, respectively. The other  bike types have a very low number of counts in the range of 0-20 observations per year. 
 
-{{< include-html "content/en/green/bike_type_part1.html.html" >}}
+{{< include-html "content/en/green/bike_type_part1.html" >}}
 
 We're interested to see if there has been an increase in the use of bicycles and especially in the use of E-bikes. From the plot above it certainly looks like there has been a slight increase, but it cannot be stated with certainty from the absolute numbers. In the plot below, we solve this problem by looking at the percentage increase in the number of bike trips, $x$, since 2014. Calculated for year $i$ and bicycle type $b$:
 
@@ -17,7 +17,7 @@ $\frac{x_{b,i} - x_{b,2014}}{x_{b,2014}} \cdot 100$
 
 The use of Christianiabicycles has increased significantly (800%) from 2014 -2021! The E-bikes has also become more popular with 5-fold increase compared to the 2014 baseline. Interestingly, the ordinary two wheel bike retains its popularity, but it does not seem to be used more often. The same story goes for the remaining bicycle types.
 
-{{< include-html "content/en/green/bike_type_part2.html.html" >}}
+{{< include-html "content/en/green/bike_type_part2.html" >}}
 
 ### Discussion and conclusion
 
