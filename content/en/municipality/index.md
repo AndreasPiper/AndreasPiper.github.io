@@ -2,6 +2,11 @@
 title: "Municipality analysis"
 weight: 2
 ---
+<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+<script type="text/javascript">
+     Bokeh.set_log_level("info");
+</script>
+
 
 ## Sometimes I take pictures
 
