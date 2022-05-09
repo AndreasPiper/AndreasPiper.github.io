@@ -2,6 +2,9 @@
 title: "Green conclusion"
 weight: 5
 ---
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 ### Green development
 
@@ -11,9 +14,9 @@ In the interactive plot below shows the number of bike trips by year showing the
 
 {{< include-html "content/en/green/bike_type_part1.html" >}}
 
-We're interested to see if there has been an increase in the use of bicycles and especially in the use of E-bikes. From the plot above it certainly looks like there has been a slight increase, but it cannot be stated with certainty from the absolute numbers. In the plot below, we solve this problem by looking at the percentage increase in the number of bike trips, $x$, since 2014. Calculated for year $i$ and bicycle type $b$:
+We're interested to see if there has been an increase in the use of bicycles and especially in the use of E-bikes. From the plot above it certainly looks like there has been a slight increase, but it cannot be stated with certainty from the absolute numbers. In the plot below, we solve this problem by looking at the percentage increase in the number of bike trips, ***x***, since 2014. Calculated for year ***i*** and bicycle type ***b***:
 
-$\frac{x_{b,i} - x_{b,2014}}{x_{b,2014}} \cdot 100$
+<div>$$\frac{x_{b,i} - x_{b,2014}}{x_{b,2014}} \cdot 100$$</div>
 
 The use of Christianiabicycles has increased significantly (800%) from 2014 -2021! The E-bikes has also become more popular with 5-fold increase compared to the 2014 baseline. Interestingly, the ordinary two wheel bike retains its popularity, but it does not seem to be used more often. The same story goes for the remaining bicycle types.
 
