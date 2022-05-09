@@ -82,17 +82,21 @@ publishDir= "docs"
      url     = "/intro/"
      weight  = 2
  [[menu.main]]
-     name    = "Detailed analysis"
-     url     = "/analysis/"
+     name    = "Municipality analysis"
+     url     = "/municipality/"
      weight  = 3
  [[menu.main]]
      name    = "Geo data visualizations"
      url     = "/geo/"
      weight  = 4
  [[menu.main]]
-     name    = "Models"
-     url     = "/models/"
+     name    = "Demographic analysis"
+     url     = "/demographic/"
      weight  = 5
+ [[menu.main]]
+     name    = "Green conclusions"
+     url     = "/green/"
+     weight  = 6
 
 # We only use tag as a taxonomies
 # You can add more by yourself
