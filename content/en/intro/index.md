@@ -59,7 +59,7 @@ In our analysis, we will use subsets of the dataset depending on the aim. In gen
 
 
 
-{{< include-html "content/en/municipality/intro_plot.html" >}}
+{{< include-html "content/en/intro/intro_plot.html" >}}
 
 ### Design Space Dimensions
 

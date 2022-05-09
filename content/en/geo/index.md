@@ -14,8 +14,15 @@ weight: 3
 ### Edu Map1
 {{< include-html "content\en\geo\edu_map1.html" >}}
 
-<!-- ### Heat Map
-{{< include-html "content\en\geo\heat_map.html" >}} -->
+### Heat Map
+<iframe src="content/en/geo/heat_map1.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="0">
+</iframe>
 
 ### Hour Map
 {{< include-html "content\en\geo\hour_map1.html" >}}
