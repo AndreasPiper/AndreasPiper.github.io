@@ -13,6 +13,7 @@ This project is about the pictures I take. Sometimes, they are pictures of cats.
 
 
 
+
 <!-- 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,7 +44,7 @@ This project is about the pictures I take. Sometimes, they are pictures of cats.
           
           
             
-              <div class="bk-root" id="e36a635c-b87a-4bb6-a467-d64192ca432a" data-root-id="2824"></div>
+<div class="bk-root" id="e36a635c-b87a-4bb6-a467-d64192ca432a" data-root-id="2824"></div>
             
           
         
