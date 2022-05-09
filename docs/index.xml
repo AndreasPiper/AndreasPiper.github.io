@@ -13,7 +13,7 @@
       
       <guid>https://andreaspiper.github.io/intro/</guid>
       <description>About the data sourceThe data used in this project comes from the Danish National Travel Survey (Transportvaneundersøgelsen), which is a survey that aims to gather information on the transport behaviour of Danes residing in Denmark [1]. The survey is managed by DTU Transport on behalf of a group of Danish authorities and organisations. Here are some key points that describe the survey:
- It contains a one-day travel diary combined with various background questions Every day contains several trips with different modes of transport Covers 365 days a year Regards Danish residents, 10-84 years of age Interviews are performed from 2006-2021&#39;  We will use two main datasets from the TU database.</description>
+ It contains a one-day travel diary combined with various background questions Every day contains several trips with different modes of transport Covers 365 days a year Regards Danish residents, 10-84 years of age Interviews are performed from 2006-2021  We will use two main datasets from the TU database.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@ You live in Copenhagen and usually make your way through the city on your belove
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andreaspiper.github.io/geo/</guid>
-      <description>Geo DataAge Map window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;};/*** plotly.js v2.11.1* Copyright 2012-2022, Plotly, Inc.* All rights reserved.* Licensed under the MIT license*/!function(t){if(&#34;object&#34;==typeof exports&amp;&amp;&#34;undefined&#34;!=typeof module)module.exports=t();else if(&#34;function&#34;==typeof define&amp;&amp;define.amd)define([],t);else{(&#34;undefined&#34;!=typeof window?window:&#34;undefined&#34;!=typeof global?global:&#34;undefined&#34;!=typeof self?self:this).Plotly=t()}}((function(){return function t(e,r,n){function i(o,s){if(!r[o]){if(!e[o]){var l=&#34;function&#34;==typeof require&amp;&amp;require;if(!s&amp;&amp;l)return l(o,!0);if(a)return a(o,!0);var c=new Error(&#34;Cannot find module &#39;&#34;+o+&#34;&#39;&#34;);throw c.code=&#34;MODULE_NOT_FOUND&#34;,c}var u=r[o]={exports:{}};e[o][0].call(u.exports,(function(t){return i(e[o][1][t]||t)}),u,u.exports,t,e,r,n)}return r[o].exports}for(var a=&#34;function&#34;==typeof require&amp;&amp;require,o=0;o:not(.watermark)&#34;:&#34;opacity:0;-webkit-transition:opacity .3s ease 0s;-moz-transition:opacity .3s ease 0s;-ms-transition:opacity .3s ease 0s;-o-transition:opacity .3s ease 0s;transition:opacity .</description>
+      <description>Distance MapIn order to illustrate the differences in commuting behaviour, we decided to show some values in the form of a map with a breakdown by municipalities. The first map shows the average number of kilometers covered by a resident. It can be seen that in suburb municipalities of Copenhagen e.g. Brøndby, Glostrup, Ballerup and Lyngby-Taarbæk the average distance is around 4 kilometers and is higher than the total average (3.</description>
     </item>
     
     <item>
