@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andreaspiper.github.io/intro/</guid>
-      <description>Motivation In the battle against climate change, we need to find ways of minimizing greenhouse gas emissions. The transport sector is contributing immensely to the total emissions, hence finding clean ways of transportation is key. Denmark is one of the most biking countries in the world - its a means of transport with no CO2 emission connected to it! Plus it has lots of health benefits for the rider!</description>
+      <description>About the data sourceThe data used in this project comes from the Danish National Travel Survey (Transportvaneundersøgelsen), which is a survey that aims to gather information on the transport behaviour of Danes residing in Denmark [1]. The survey is managed by DTU Transport on behalf of a group of Danish authorities and organisations. Here are some key points that describe the survey:
+ It contains a one-day travel diary combined with various background questions Every day contains several trips with different modes of transport Covers 365 days a year Regards Danish residents, 10-84 years of age Interviews are performed from 2006-2021&#39;  We will use two main datasets from the TU database.</description>
     </item>
     
     <item>
