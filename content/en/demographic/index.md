@@ -35,9 +35,9 @@ Surprisingly the time of the year does not influence the trip time. However, the
 
 <img src="reg_feature_weights.png" width=800 height=600 />
 
-To compare the result and feature importance, as said before, we also performed the Decision Tree-based regression. The Mean Absolute Error this time was lower: 3.03. By looking at the feature importance it can be observed that even though again 'SumLen' is the most important one the second and third are different than in Linear Regression. This actually highlights a very important fact, that feature importance may vary across different models and there is no best feature selection method [3].
+To compare the result and feature importance, as said before, we also performed the Decision Tree-based regression. The Mean Absolute Error this time was lower: 3.15. By looking at the feature importance it can be observed that even though again 'SumLen' is the most important one the second and third are different than in Linear Regression. This actually highlights a very important fact, that feature importance may vary across different models and there is no best feature selection method [3].
 
-<img src="DT_features_importance.png" width=800 height=600 />
+<img src="DT_feature_importance.png" width=800 height=600 />
 
 By presenting the couple of first nodes of the treee we can actually observe that the first seven only takes into account the "SumLen" feature, what again underlines the importance of this element.
 
