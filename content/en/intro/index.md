@@ -25,11 +25,11 @@ The **Tur** dataset contains information on every trip in the one-day travel dia
 
 **88688** (15%) bike trips 🚲
 
-The left bar chart below shows the number of interviews conducted per year since the beginning of the survey in 2006.
+The left bar chart below shows the number of interviews conducted per year since the beginning of the survey in 2006. For some reason the number peaked in 2007-2011 but have stayed roughly constant at 10,000 interviews per year since then. The plot to the right shows the summed distance for all bike trips for the top 15 municipalities. Copenhagen bikes more than four times the distance of other cities, however, we have not adjusted for the population difference here.
 
 <img src="Number_of_interviews_per_year.png" width=800 height=600 />
 
-In our analysis, we will use subsets of the dataset depending on the analysis aim. In general, we focus on the trips where 'bicycle' is the primary mode of transport. Furthermore, for parts of the analysis we focus on the 15 top municipalities when it comes to total distance travelled by bike. These are shown in the plot to the right.
+In our analysis, we will use subsets of the dataset depending on the analysis aim. In general, we focus on the trips where 'bicycle' is the primary mode of transport. Furthermore, for parts of the analysis we focus on the 15 top municipalities when it comes to total distance travelled by bike. These are shown in the plot to the right. In the interactive Bokeh plot below, we show the number of one-day travel diaries that contain one or more bike trips for the 15 municipalities for each year of the survey.
 
 {{< include-html "content/en/intro/intro_plot.html" >}}
 
@@ -45,9 +45,7 @@ We have made use of several visual devices to assist and facilitate the narrativ
 For the ordering of the website content we have aimed for a user directed path without a prescribed ordering of plots and a high degree of interactivity. The interactive components include hovering, selection and navigation buttons that allow the reader to create a customized view of the data. From the messaging tools, we have made use of captions and annotations to provide observations and explanations about the plots. 
 
 
-
-References: 
-
+References: <br/>
 [1] Danish National Travel Survey, [DOI: 10.11581/dtu:00000034](https://www.cta.man.dtu.dk/transportvaneundersoegelsen/dokumentation). Documentation: [Catalogue of variables]((https://www.tu2022.dk/meta/?lang=EN)).
 
 [2] E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
