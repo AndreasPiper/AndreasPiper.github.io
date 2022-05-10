@@ -24,6 +24,14 @@ Demographic Analysis - Introduction
 
 
 
+<meta property="og:image" content="https://andreaspiper.github.io/demographic/DT_features_importance.png"/>
+
+<meta property="og:image" content="https://andreaspiper.github.io/demographic/DT_plot.png"/>
+
+<meta property="og:image" content="https://andreaspiper.github.io/demographic/X_correlation.png"/>
+
+<meta property="og:image" content="https://andreaspiper.github.io/demographic/corr_heatmap.png"/>
+
 <meta property="og:image" content="https://andreaspiper.github.io/demographic/gender_dist.png"/>
 
 
@@ -227,6 +235,22 @@ Demographic Analysis - Introduction
 <strong>Age 20-39:</strong> From 20-39 years of age, the Educational purpose is almost entirely replaced by Workplace. Hence, people at this age have finished school and now bike to and from work instead. The day is a couple of hours longer for the 20-39 year olds than for the youngest age group and they go home from work at 3-5pm. Errand make out a large part of the bike trip purposes in the afternoon, but there is still time to leisure activities as well.<br/>
 <strong>Age 40-59:</strong> The bike habits for this age group are similar to those of people who are 20 years younger. They go to and from work at roughly the same times and spend the afternoon running errands an doing freetime activities. The Business purposes are uniformly distributed throughout the day, however, there is a decent number of business activities happening at midnight. Wonder what these could be 🤔&hellip;<br/>
 <strong>Age 60-90:</strong> At this age, only a few people still go to work so they have the time to run errands and to leisurely activities during the day between 9am and 4pm. Interestingly, the Errand category make out a majority of the bike trips at noon, which could be due to the fact that retirees like to get their shopping done between 10-12am when the stores aren&rsquo;t so crowded.</p>
+
+<h3 id="predicting-your-route-length" class="anchor-link"><a href="#predicting-your-route-length">Predicting Your Route Length</a></h3>
+<p>Due to the rather large amount of data collected, we attempted to make are supervised machine leraning model to predict the time that bike trip would take. For that reason both linear regression and decision tree regresion were developed.</p>
+<p>But first, in order to get some basic knowledge and intuition about the data we performed the Pearson correlation [1] among the parameters and presented it in a form of a heatmap.</p>
+<img src="corr_heatmap.png" width=800 height=600 />
+<p>As our idea was to predict the time, we focused on the &lsquo;SumMin&rsquo; category. It can be observed that the value is correlated with PrimModeSumlen - the primary mode of transport summed distance, total bicycle length, and summed distance. Those values seem to be quite intuitive as recorded trips with higher lengths will be probably longer and the trips with higher total distances performed on bike probably would have also recorded longer trips. First, we performed a linear regression on the gathered data. The resulted Mean Absolute Error was 3.87. To illustrate the importance of the features the weights of coefficients resulting from the regression are presented below. It can be observed that the most influence on the time of the bike trip has the &lsquo;SumLength&rsquo; feature what makes perfect sense as when the distance is longer the time will be longer. The second and third higher weights are &lsquo;PrimamryModeSumLenght&rsquo; and &lsquo;RespHasBicycle&rsquo; respectively. This also checks out as owners of bikes probably choose to have better equipment and if the total sum of trips is higher that means that the endurance of the biker is higher which will result in lower trip time. Last it can be observed that men are a bit faster than women when it comes to biking.</p>
+<p>Surprisingly the time of the year does not influence the trip time. However, the cause of it can be connected with the fact that people are more likely to cycle [2] when it is warmer. Therefore people cycling in winter can be more experienced ones.</p>
+<img src="reg_feature_weights.png" width=800 height=600 />
+<p>To compare the result and feature importance, as said before, we also performed the Decision Tree-based regression. The Mean Absolute Error this time was lower: 3.03. By looking at the feature importance it can be observed that even though again &lsquo;SumLen&rsquo; is the most important one the second and third are different than in Linear Regression. This actually highlights a very important fact, that feature importance may vary across different models and there is no best feature selection method [3].</p>
+<img src="DT_features_importance.png" width=800 height=600 />
+<p>By presenting the couple of first nodes of the treee we can actually observe that the first seven only takes into account the &ldquo;SumLen&rdquo; feature, what again underlines the importance of this element.</p>
+<img src="DT_plot.png" width=800 height=600 />
+<p>References:</p>
+<p>[1] rasbt, Pattern Classification, <a href="https://github.com/rasbt/pattern_classification/blob/master/resources/latex_equations.md#correlation---pearson">https://github.com/rasbt/pattern_classification/blob/master/resources/latex_equations.md#correlation---pearson</a></p>
+<p>[2] How does the wether affect the share bicycle usage?, Danish Journal of Transportation Research, <a href="https://journals.aau.dk/index.php/djtr/article/download/3560/3106">https://journals.aau.dk/index.php/djtr/article/download/3560/3106</a></p>
+<p>[3] How to Choose a Feature Selection Method For Machine Learning, Jason Brownlee , <a href="https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/">https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/</a></p>
 
     </div>
     
