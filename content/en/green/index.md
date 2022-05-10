@@ -30,7 +30,7 @@ What is still missing? What could be improved? Why?
 
 The dataset from the Danish National Transport Survey database contains much more data than what we have filtered out in this project. We have chosen to focus on bicycle trips, however, the dataset also contains trips by other modes of transport; car, public transport, a combination of those etc. Hence, there is potential for much further analysis. For example, one could investigate the trends in the use of different modes of transport and compare the development in bicycle habits in this perspective. Such analysis would give a more thorough to the answer we tried to answer above: Has there been an increase in the use of bicycles?
 
-On limitiation to the dataset is the geospacial resolution. Locations are given by municipality or city codes, hence we don't have the information of longitude and latitude that is necessary for some geodata representations.
+One limitiation to the dataset is the geospacial resolution. Locations are given by municipality or city codes, hence we don't have the information of longitude and latitude that is necessary for some geodata representations.
 
 References:<br/>
 [1] The Green Machine: can E-bikes help fight climate change? [Cycleguard.co.uk](https://www.cycleguard.co.uk/how-green-are-ebikes)
