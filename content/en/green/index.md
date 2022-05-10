@@ -34,4 +34,5 @@ On limitiation to the dataset is the geospacial resolution. Locations are given 
 
 References:<br/>
 [1] The Green Machine: can E-bikes help fight climate change? [Cycleguard.co.uk](https://www.cycleguard.co.uk/how-green-are-ebikes)
+
 [2] Ian Philips, Jillian Anable, Tim Chatterton. E-bikes and their capability to reduce car CO2 emissions. Transport Policy. Volume 116 (2022). Pages 11-23. DOI: https://doi.org/10.1016/j.tranpol.2021.11.019.
