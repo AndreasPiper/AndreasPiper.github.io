@@ -13,6 +13,4 @@ This is **Saving the world cycling**, a DTU-project displaying the findings of s
 * Green conclusions: how biking will save the world!
 
 ### The notebook
-The notebook used for creating the plots of this project can be found [Here](https://github.com/suneman/socialdata2022/wiki/Final-Project)  
-
-UPDATE THIS WHEN DONE!!!
+The notebook used for creating the plots of this project can be found [Here](https://github.com/AndreasPiper/AndreasPiper.github.io/blob/0f5c84b73cad55e7bc50b8444cc86fd2b6713016/Notebook/Explainer_notebook.ipynb)  
