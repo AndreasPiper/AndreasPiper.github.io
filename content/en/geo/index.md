@@ -6,7 +6,7 @@ weight: 3
 
 ### Distance Map
 In order to illustrate the differences in commuting behaviour across Denmark, we decided to show some values in the form of a map with a breakdown by municipalities. Thanks to muncipaliteis codes available in data and geojson data [1] is was possbile to map servel interesting properties. 
-In the first map the average number of kilometers covered by a commune resident. It can be seen that in suburb municipalities of Copenhagen e.g. Brøndby, Glostrup, Ballerup and Lyngby-Taarbæk the average distance is around 4 kilometers and is higher than the total average of average of 3.09. That can be caused by the fact that people decide to commute to the city with their bikes. The same pattern occurs in Syddjurs and Silkeborg where people may commute to Aarhus and in Faaborg-Midtfyn where people may commute to Odense. The clear outlier in that observation is the city of Aalborg and its suburbs where the average biking distance is significantly lower than in other urbanized areas. 
+In the first map the average number of kilometers covered by a commune resident. It can be seen that in suburb municipalities of Copenhagen e.g. Brøndby, Glostrup, Ballerup and Lyngby-Taarbæk the average trip distance is around 4 kilometers and is higher than the total average of 3.09. That can be caused by the fact that people decide to commute to the city with their bikes. The same pattern occurs in Syddjurs and Silkeborg where people may commute to Aarhus and in Faaborg-Midtfyn where people may commute to Odense. The clear outlier in that observation is the city of Aalborg and its suburbs where the average biking distance is significantly lower than in other urbanized areas. 
 
 {{< include-html "content\en\geo\distance_map.html" >}}
 
