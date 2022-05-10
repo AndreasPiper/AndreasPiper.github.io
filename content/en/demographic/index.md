@@ -21,25 +21,23 @@ This Bokeh plot below let's you investigate the bike trip purpose for people in 
 **Age 60-90:** At this age, only a few people still go to work so they have the time to run errands and to leisurely activities during the day between 9am and 4pm. Interestingly, the Errand category make out a majority of the bike trips at noon, which could be due to the fact that retirees like to get their shopping done between 10-12am when the stores aren't so crowded.
 
 ### Predicting Your Route Length
-Due to the rather large amount of data collected, we attempted to make are supervised machine leraning model to predict the time that bike trip would take. For that reason both linear regression and decision tree regresion were developed. 
+Due to the rather large amount of data collected, we attempted to make a supervised machine learning model to predict the time that a bike trip would take. For that reason both a linear regression and decision tree regresion model was developed. 
 
 But first, in order to get some basic knowledge and intuition about the data we performed the Pearson correlation [1] among the parameters and presented it in a form of a heatmap. 
 
 <img src="corr_heatmap.png" width=800 height=600 />
 
+As our idea was to predict the time, we focused on the 'SumMin' category. It can be observed that the value is correlated with PrimModeSumlen - the summed distance for the primary mode of transport, total bicycle length, and summed distance. Those values seem to be quite intuitive as recorded trips with higher lengths will probably be longer and the trips with higher total distances performed on bike probably would have also recorded longer trips. First, we performed a linear regression on the gathered data. The resulted Mean Absolute Error was 3.87. To illustrate the importance of the features, the weights of coefficients resulting from the regression are presented below. It can be observed that the most influence on the time of the bike trip has the 'SumLength' feature what makes perfect sense as when the distance is longer the time will be longer. The second and third higher weights are 'PrimaryModeSumLenght' and 'RespHasBicycle' respectively. This also checks out as owners of bikes probably choose to have better equipment and if the total sum of trips is higher that means that the endurance of the biker is higher which will result in lower trip time. Last it can be observed that men are a bit faster than women when it comes to biking.
 
-
-As our idea was to predict the time, we focused on the 'SumMin' category. It can be observed that the value is correlated with PrimModeSumlen - the primary mode of transport summed distance, total bicycle length, and summed distance. Those values seem to be quite intuitive as recorded trips with higher lengths will be probably longer and the trips with higher total distances performed on bike probably would have also recorded longer trips. First, we performed a linear regression on the gathered data. The resulted Mean Absolute Error was 3.87. To illustrate the importance of the features the weights of coefficients resulting from the regression are presented below. It can be observed that the most influence on the time of the bike trip has the 'SumLength' feature what makes perfect sense as when the distance is longer the time will be longer. The second and third higher weights are 'PrimamryModeSumLenght' and 'RespHasBicycle' respectively. This also checks out as owners of bikes probably choose to have better equipment and if the total sum of trips is higher that means that the endurance of the biker is higher which will result in lower trip time. Last it can be observed that men are a bit faster than women when it comes to biking.
-
-Surprisingly the time of the year does not influence the trip time. However, the cause of it can be connected with the fact that people are more likely to cycle [2] when it is warmer. Therefore people cycling in winter can be more experienced ones.
+Surprisingly, the time of the year does not influence the trip time. However, the cause of it can be connected with the fact that people are more likely to cycle [2] when it is warmer. Therefore people cycling in winter can be more experienced ones.
 
 <img src="reg_feature_weights.png" width=800 height=600 />
 
-To compare the result and feature importance, as said before, we also performed the Decision Tree-based regression. The Mean Absolute Error this time was lower: 3.15. By looking at the feature importance it can be observed that even though again 'SumLen' is the most important one the second and third are different than in Linear Regression. This actually highlights a very important fact, that feature importance may vary across different models and there is no best feature selection method [3].
+To compare the result and feature importance, as said before, we also performed a Decision Tree-based regression. The Mean Absolute Error this time was lower: 3.15. By looking at the feature importance it can be observed that even though again 'SumLen' is the most important one the second and third are different than in Linear Regression. This actually highlights a very important fact, that feature importance may vary across different models and there is no best feature selection method [3].
 
 <img src="DT_feature_importance.png" width=800 height=600 />
 
-By presenting the couple of first nodes of the treee we can actually observe that the first seven only takes into account the "SumLen" feature, what again underlines the importance of this element.
+By presenting the couple of first nodes of the tree we can actually observe that the first seven only takes into account the "SumLen" feature, what again underlines the importance of this element. In conclusion, the most important factor for predicting the duration of a bike trip is the distance travelled.
 
 <img src="DT_plot.png" width=800 height=600 />
 
