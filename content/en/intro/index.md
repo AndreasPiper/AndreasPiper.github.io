@@ -36,7 +36,7 @@ In our analysis, we will use subsets of the dataset depending on the analysis ai
 ### Design Space Dimensions
 
 **Narrative genre**<br/>
-We will make use of several genres of narrative visualization [2]. For example, a multi-view visualization (“partitioned poster”) to have a loose order to images, possibly combined with Flow Chart to suggest a path to the viewer. Time-series data can be displayed using Annotated Graphs within a Slide Show format allowing for interactivity through a timeline slider. Time-series data may also be presented in a video format.
+We will make use of several genres of narrative visualization [2]. For example, a multi-view visualization (“partitioned poster”) to have a loose order to images, possibly combined with Flow Chart to suggest a path to the viewer. Time-series data can be displayed using Annotated Graphs with tabs that allow for interactivity by selecting the time range one is interested in seeing. 
 
 **Visual Narrative**<br/>
 We have made use of several visual devices to assist and facilitate the narrative. Some of our interactive plots contain tabs or a timeline slider to communicate the overall structure within the larger organization of the visualization. Color and size have been used to highlight specific elements of our plots and direct the reader's attention to important parts. We have made limited use of Transition guidance tools, since most our visualizations don't contain film or moving images.
